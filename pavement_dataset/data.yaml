@@ -1,0 +1,6 @@
+
+path: C:\Users\GEORGE\Documents\pavement-detection\pavement_dataset
+train: images/train
+val: images/val
+nc: 2
+names: ['crack', 'pothole']
