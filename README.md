@@ -13,13 +13,13 @@ Manual pavement inspection is slow, subjective, and costly. This project automat
 - Longitudinal cracking
 - Patching
 - Pothole
-- Rutting
+- Rutting 
 - Transverse cracking
 
 ## Dataset
 
 - 8,000+ images (8,214 train, 783 val, 391 test, 60 inference)
-- Sources: Edo State Ministry of Works + Roboflow
+- Sources: Edo State Ministry of Works + [Roboflow](https://universe.roboflow.com/baka-1ravj/road-damage-det)
 - Annotation: YOLO format (bounding boxes)
 - Preprocessing: 640×640 resize, normalization
 - Augmentation: flip, rotation (-40° to +40°), brightness, zoom
